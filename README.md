@@ -65,6 +65,8 @@ Finishing the feature merges the feature branch on the develop branch on your __
 
 3. Push local changes on develop branch to remote develop branch: `$ git push`.
 
+For hotfix and release branches the steps are the similar.
+
 ## Additional info
 
 Additional info on Gitflow workflow can be found [here](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
