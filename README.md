@@ -4,7 +4,7 @@ Gitflow Workflow is a Git workflow design. The Gitflow Workflow defines a strict
 
 ## Intallation
 
-Gitflow is a wrapper around Git. The installation process for git-flow is straightforward. Packages for git-flow are available on multiple operating systems. 
+Gitflow is a wrapper around Git. The installation process for Gitflow is straightforward. Packages for Gitflow are available on multiple operating systems. 
 
 Linux:
 ```shell
@@ -31,7 +31,7 @@ Inside __Plugins__, search and install the __Git Flow Plugin__:
 
 ### Gitflow initialization
 
-The first step is to initialize git-flow on your existing repo:
+The first step is to initialize Gitflow on your existing repo:
 
 ```shell
 $ git flow init
@@ -46,7 +46,12 @@ Branch's name should follow the naming convention:
 
 This operation creates the __develop branch__ on your local machine (__For project owners only__: it is necessary to push the develop branch).
 
-This is step will be executed only one time per git repo.
+This step will be executed only one time per git repo.
+
+It is also important to check "Keep Remote" on the GitFlow settings:
+
+![alt text](images/settings.png "Settings")
+
 
 ## Usage
 
