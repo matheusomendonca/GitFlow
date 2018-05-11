@@ -16,7 +16,7 @@ Mac:
 $ brew install git-flow
 ```
 
-Windows: [Download ans install git-flow](https://git-scm.com/download/win)
+Windows: [Download and install git-flow](https://git-scm.com/download/win)
 
 ### IDE Plugin
 
