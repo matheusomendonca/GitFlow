@@ -20,7 +20,7 @@ Windows: [Download ans install git-flow](https://git-scm.com/download/win)
 
 ### IDE Plugin
 
-On your IDE, search (Ctrl+Shift+A) for __Plugins__: 
+On your IDE, search (e.g. Ctrl+Shift+A on PyCharm) for __Plugins__: 
 
 ![alt text](images/plugins.png "Plugins search")
 
