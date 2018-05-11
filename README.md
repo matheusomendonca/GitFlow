@@ -29,5 +29,44 @@ Inside __Plugins__, search and install the __Git Flow Plugin__:
 ![alt text](images/gitflow-plugin.png "Git Flow plugin")
 
 
+### Gitflow initialization
+
+The first step is to initialize git-flow on your existing repo:
+
+```shell
+$ git flow init
+```
+
+or
+
+![alt text](images/init.png "Init")
+
+Branch's name should follow the naming convention:
+
+![alt text](images/branch-names.png "Branch names")
+
+This operation creates the __develop branch__ on your local machine (__For project owners only__: it is necessary to push the develop branch).
+
+This is step will be executed only one time per git repo.
+
 ## Usage
 
+Let's suppose you have to fix someone's bug (of course it is someone's, you do not make mistakes) or you are implementing a new functionality. The following steps will be followed:
+
+1. Create a new feature branch (e.g. *bugfix*) from develop branch: `$ git flow feature start`.
+
+Until this point, the new feature branch is only available on your local machine and you can make commits normally. However, it is also necessary to __push your commits to make the feature branch available on remote__.
+
+You should work on this feature branch until this specific feature is done, but it is also recommended to distribute your work across feature branches in order to make them traceble and easier to maintain.
+
+2. Finish the new feature: `$ git flow feature finish`.
+
+Finishing the feature merges the feature branch on the develop branch on your __local machine__ (PAY ATTENTION TO THIS). So it is  still necessary to push the updates on the local develop branch to the remote develop branch. But before this operation, it is highly recommended to update your local develop branch and make the necessary changes.
+
+3. Push local changes on develop branch to remote develop branch: `$ git push`.
+
+For hotfix and release branches the steps are the similar.
+
+## Additional info
+
+Additional info on Gitflow workflow can be found [here](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
