@@ -20,11 +20,14 @@ Windows: [Download ans install git-flow](https://git-scm.com/download/win)
 
 ### IDE Plugins
 
-On your IDE, search for __Plugins__: 
+On your IDE, search (Ctrl+Shift+A) for __Plugins__: 
 
 ![alt text](images/plugins.png "Plugins search")
 
-Then, search for __Git Flow__
+Inside __Plugins__, search and install __Git Flow__:
+
+![alt text](images/gitflow-plugin.png "Git Flow plugin")
+
 
 ## Usage
 
