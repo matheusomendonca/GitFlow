@@ -83,7 +83,7 @@ Finishing the feature merges the feature branch on the develop branch on your __
 
 3. Push local changes on develop branch to remote develop branch: `$ git push`.
 
-For hotfix and release branches the steps are the similar.
+For hotfix and release branches the steps are similar.
 
 ## Additional info
 
